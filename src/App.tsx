@@ -11,7 +11,6 @@ import { Toaster, toast } from "sonner";
 
 export default function App() {
   const [score, setScore] = useState(0)
-  const [attempts, setAttempts] = useState(0)
   const [letter, setLetter] = useState("")
   const [lettersUsed, setLettersUsed] = useState<LettersUsedProps[]>([])
   const [challenge, setChallenge] = useState<Challenge | null>(null)
