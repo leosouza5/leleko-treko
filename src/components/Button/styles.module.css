@@ -1,5 +1,5 @@
 .button {
-  height: 2.87rem;
+  min-height: clamp(2.5rem, 12vw, 2.87rem);
   border-radius: 0.43rem;
 
   background-color: #6363db;
@@ -7,6 +7,6 @@
   color: #ebebfc;
 
   padding: 0 0.87rem;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 3.5vw, 1rem);
   font-weight: 700;
 }

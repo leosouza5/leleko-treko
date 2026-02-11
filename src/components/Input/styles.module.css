@@ -1,6 +1,6 @@
 .input {
-  width: 2.87rem;
-  height: 2.87rem;
+  width: clamp(2.5rem, 12vw, 2.87rem);
+  height: clamp(2.5rem, 12vw, 2.87rem);
   border-radius: 0.43rem;
 
   background-color: #ebebfc;
@@ -9,7 +9,7 @@
 
   text-transform: uppercase;
   text-align: center;
-  font-size: 1rem;
+  font-size: clamp(0.95rem, 3.5vw, 1rem);
   font-weight: 700;
   outline: none;
 }
