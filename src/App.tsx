@@ -37,7 +37,6 @@ export default function App() {
 
     const value = letter.toUpperCase()
 
-    console.log(lettersUsed);
 
     const exists = lettersUsed.find(letter => letter.value.toUpperCase() === value)
 
