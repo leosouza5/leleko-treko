@@ -1,0 +1,31 @@
+:root {
+  font-size: 16px
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5fa;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+input {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+button {
+  font-family: "Noto Sans", sans-serif;
+
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+button:hover {
+  filter: brightness(0.9);
+}
